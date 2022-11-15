@@ -1,0 +1,115 @@
+.header{
+    font-size: 60px;
+    font-family: monotype Corsiva;
+    text-align: center;
+    font-weight: 700;
+    color: DarkSlateGray;
+    margin-top: 20px;
+}
+
+.container{
+    font-family: 'monotype Corsiva';
+    font-size: 28px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #0a0a0a;
+}
+
+.title{
+    font-size: 42px;
+    font-family: 'monotype Corsiva';
+    text-align: center;
+    font-weight: 800;
+    color: #4f4f4f;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    line-height: 5px;
+}
+
+.container-base{
+    margin: 0 0 0px;
+    font-family: 'monotype Corsiva';
+    color: #070000;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.article-title{
+    max-height: 0;
+    margin: 0 0 30px;
+    position: relative;
+}
+
+.author1,.author3{
+    margin-right: 800px;
+    max-height: 26px;
+    margin-top: 500;
+    margin-bottom: 30px;
+    padding-top: 80px;
+}
+
+.author2,.author4{
+    margin-left: 800px;
+    max-height: 26px;
+}
+
+.author1::before{
+    position: relative;       
+}
+
+.author2::before{
+    position: relative;
+}
+
+.author3::before{
+    position: relative;    
+}
+
+.author4::before{
+    position: relative;
+}
+
+.author1,::after{
+    content: attr(cite);
+    display: block;
+    font-style: italic;
+}
+
+.author2::after{
+    content: attr(cite);
+    display: block;
+    font-style: italic;
+}
+
+.author3::after{
+    content: attr(cite);
+    display: block;
+    font-style: italic;
+}
+
+.author4::after{
+    content: attr(cite);
+    display: block;
+    font-style: italic;
+}
+
+.headline-img{
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    object-position: right;
+    padding: 0px 325px;
+    margin-right: 350px;
+    margin-top: 0;
+}
+
+.article-expression{
+    font-size: 36px;
+    font-family: 'Wulkan Display';
+    text-align: center;
+    font-weight: 800;
+    color: #060000;
+    margin: 0 auto;
+    line-height: 5px;
+}
